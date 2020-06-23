@@ -19,6 +19,7 @@
         "brace-style": ["warn", "stroustrup", { "allowSingleLine": true }],
         "guard-for-in": ["error"],
         "curly": ["warn"],
-        "prefer-arrow-callback": ["error", {"allowUnboundThis": false}]
+        "prefer-arrow-callback": ["error", {"allowUnboundThis": false}],
+        "indent": ["error", 4]
     }
 }
