@@ -1,17 +1,15 @@
-export class Hello{
+export class Hello {
+    private name: string;
 
-    private name:string;
-
-    constructor(name:string){
+    constructor(name: string) {
         this.name = name;
     }
 
-    greeting():void{
+    greeting(): void {
         console.log('Hello', this.name);
     }
 
-    getName():string{
+    getName(): string {
         return this.name;
     }
-
 }
