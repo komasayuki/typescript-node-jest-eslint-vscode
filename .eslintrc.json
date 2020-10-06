@@ -23,6 +23,9 @@
         "curly": ["warn"],
         "prefer-arrow-callback": ["error", {"allowUnboundThis": false}],
         "indent": ["error", 4],
-        "prettier/prettier": "error"
+        "prettier/prettier": ["off", 
+            {}
+        ],
+        "disable-next-line": "off"
     }
 }
